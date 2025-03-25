@@ -1,11 +1,66 @@
-.body{
+body{
     font-family: arial;
 }
 
-.header{
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
     background-image: url(./img/header.jpg);
     height: 400px;
     background-size: cover;
     color: white;
     text-align: center;
+}
+
+.about-container{
+    display: flex;
+    gap: 10px;
+}
+
+.houses-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 5px;
+    gap: 10px;
+}
+
+.btn-details{
+    display: block;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding:5px;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container{
+    display: flex;
+}
+
+.contact-container{
+    background-color: orange;
+    text-decoration-color: black;
+    height 300px;
+    width: 900px;
 }
