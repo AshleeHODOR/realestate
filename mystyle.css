@@ -61,6 +61,22 @@ header{
 .contact-container{
     background-color: orange;
     text-decoration-color: black;
-    height 300px;
-    width: 900px;
+    text-align: left; 
+    height 700px;
+    width: 100%; 
+    text color: black;
+}
+
+.footer-container{
+    background-color: lightgray;
+    justify-content: space-between;
+    text-decoration: black;
+    text-align: left;
+    height: 150px;
+    width: 100%; 
+}
+.footer-images-container{
+    display-flex: justify-content;
+    image-resolution: 2px;
+    text-align: right;
 }
