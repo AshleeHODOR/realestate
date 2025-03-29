@@ -1,3 +1,8 @@
+*{/*selecting all the HTML elements*/
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: arial;
 }
@@ -5,10 +10,18 @@ body{
 a{
     color: white;
     text-decoration: none;
+    padding: 5px;
 }
 
 h2{
     text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+h3{
+    margin: 20px;
+    padding: 5px;
 }
 
 p{
@@ -27,9 +40,29 @@ header{
     text-align: center;
 }
 
+main{
+    margin: 30px;
+}
+
 .about-container{
     display: flex;
     gap: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+}
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .houses-container{
+        flex-direction: column;
+        text-align: center; 
+    }
 }
 
 .houses-container{
@@ -39,6 +72,7 @@ header{
     align-items: flex-start;
     height: 5px;
     gap: 10px;
+    padding:5px;
 }
 
 .btn-details{
@@ -52,6 +86,24 @@ header{
 .icons-container{
     display: flex;
     justify-content: space-between;
+    padding:5px;
+}
+
+.houses-container{
+    display: flex;
+}
+
+.house-items{
+    margin: 30px;
+}
+
+.icons-container{
+    display: flex;
+}
+
+.icons-container li{
+    display: flex;
+    width: 30%; 
 }
 
 .image-container{
@@ -64,19 +116,48 @@ header{
     text-align: left; 
     height 700px;
     width: 100%; 
-    text color: black;
+    text color; black;
+    padding:5px;
 }
 
 .footer-container{
     background-color: lightgray;
-    justify-content: space-between;
+    justify-content: space-around;
     text-decoration: black;
     text-align: left;
     height: 150px;
     width: 100%; 
+    padding:5px;
 }
 .footer-images-container{
-    display-flex: justify-content;
     image-resolution: 2px;
     text-align: right;
+    max-inline-size: 30px; 
+    flex-direction: column; 
+    display flex: justify-content;
+    padding: 20px; 
+}
+
+.date-timecontainer{
+    display flex: justify-content;
+    padding:5px;
+}
+
+.blog-container{
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: row;
+}
+
+@media(max-width:768px){
+    .blog-container{
+        flex-direction: column;
+        text-align: center; 
+    }
+}
+
+.moreaboutuscontainer{
+    font-size: 20px;
+    font-style: ariel;
+    font-weight: bold;
 }
