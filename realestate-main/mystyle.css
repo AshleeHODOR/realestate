@@ -113,16 +113,15 @@ main{
 .contact-container{
     background-color: orange;
     text-decoration-color: black;
-    display: flex; 
-    justify-content: space-between;
-    height: 100px;
+    text-align: left; 
+    height 700px;
     width: 100%; 
-    color: black;
+    text color; black;
     padding:5px;
 }
 
 .footer-container{
-    background-color: white; 
+    background-color: lightgray;
     justify-content: space-around;
     text-decoration: black;
     text-align: left;
@@ -132,16 +131,15 @@ main{
 }
 .footer-images-container{
     image-resolution: 2px;
-    text-align: left;
-    justify-content: space-around;
+    text-align: right;
     max-inline-size: 30px; 
-    flex-direction: row; 
-    display: flex; 
+    flex-direction: column; 
+    display flex: justify-content;
     padding: 20px; 
 }
 
 .date-timecontainer{
-    display: flex; 
+    display flex: justify-content;
     padding:5px;
 }
 
@@ -158,23 +156,8 @@ main{
     }
 }
 
-.more-about-us-container{
+.moreaboutuscontainer{
     font-size: 20px;
-    font-style: times;
+    font-style: ariel;
     font-weight: bold;
-    flex-direction: row;
-    image-resolution: 5px;
-    max-inline-size: 25%;
-    padding: 20px;
-    justify-content: center;
-
-}
-
-.form-container{
-    background-color: lightgray;
-    padding: 18px; 
-}
-
-.pers-container{
-    margin-bottom: 28px; 
 }
